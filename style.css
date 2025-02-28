@@ -46,21 +46,23 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: 2px;
+    height: 4px;
     width: 0%;
     background-color: aqua;
     z-index: -1;
+    transition: 0.4s ease;
 }
 
 .circle {
     height: 48px;
     width: 48px;
     border-radius: 999px;
-    border: 2px solid rgba(216, 209, 209, 0.648);
+    border: 3px solid rgba(216, 209, 209, 0.648);
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s ease;
 }
 
 .active-circle {
